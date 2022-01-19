@@ -10,13 +10,13 @@
          "level": "mandatory",
          "scope": "user",
          "source": "sourceEnterpriseDefault",
-         "value": false
+         "value": true
       },
       "AllowKioskAppControlChromeVersion": {
          "level": "mandatory",
          "scope": "machine",
          "source": "cloud",
-         "value": false
+         "value": true
       },
       "AllowSyncXHRInPageDismissal": {
          "level": "mandatory",
@@ -40,7 +40,7 @@
          "level": "mandatory",
          "scope": "user",
          "source": "cloud",
-         "value": false
+         "value": true
       },
       "ArcGoogleLocationServicesEnabled": {
          "level": "mandatory",
@@ -170,7 +170,7 @@
          "level": "mandatory",
          "scope": "machine",
          "source": "cloud",
-         "value": false
+         "value": true
       },
       "DeviceAutoUpdateDisabled": {
          "level": "mandatory",
@@ -182,7 +182,7 @@
          "level": "mandatory",
          "scope": "machine",
          "source": "cloud",
-         "value": true
+         "value": false
       },
       "DeviceDataRoamingEnabled": {
          "level": "mandatory",
@@ -200,7 +200,7 @@
          "level": "mandatory",
          "scope": "machine",
          "source": "cloud",
-         "value": false
+         "value": true
       },
       "DeviceLocalAccounts": {
          "level": "mandatory",
@@ -569,7 +569,7 @@
          "level": "mandatory",
          "scope": "user",
          "source": "sourceEnterpriseDefault",
-         "value": false
+         "value": true
       },
       "PinUnlockAutosubmitEnabled": {
          "level": "mandatory",
@@ -851,7 +851,7 @@
          "level": "mandatory",
          "scope": "user",
          "source": "cloud",
-         "value": [ "http://www.wegafremont.k12.wi.us" ]
+         "value": [  ]
       },
       "SAMLOfflineSigninTimeLimit": {
          "level": "mandatory",
@@ -864,7 +864,7 @@
          "level": "mandatory",
          "scope": "user",
          "source": "cloud",
-         "value": true
+         "value": false
       },
       "SafeSitesFilterBehavior": {
          "level": "mandatory",
@@ -956,7 +956,7 @@
          "level": "mandatory",
          "scope": "user",
          "source": "cloud",
-         "value": [ "http://facebook.com", "http://tumblr.com", "http://twitter.com", "http://myspace.com", "http://canvasrider.com", "http://aq.com", "http://ifunny.com", "https://facebook.com", "https://mobilefacebook.com", "http://tumblr.com", "http://m.facebook.com", "https://twitter.com", "http://m.twitter.com", "http://ifunny.com", "http://cleverbot.com", "*//facebook.com", "https://www.dndbeyond.com", "https://play.pokemonshowdown.com", "https://www.muthead.com", "https://www.tiktok.com", "instagram.com", "mylol.com", "https://reddit.com" ]
+         "value": [ "http://facebook.com", "http://tumblr.com"  ]
       },
       "UsbDetachableAllowlist": {
          "level": "mandatory",
